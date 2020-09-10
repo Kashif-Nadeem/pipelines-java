@@ -21,13 +21,6 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
-variables:
-  # Azure service connection established during pipeline creation
-  azureSubscription: 'c3576c0d-bba5-4c2d-96c4-b79fd4d6ffe7'
-  appName: 'DOSTraining'
-  # Agent VM image name
-  vmImageName: 'ubuntu-latest'
-
 - task: AzureWebApp@1 # Add this at the end of your file
   inputs:
     azureSubscription: 'c3576c0d-bba5-4c2d-96c4-b79fd4d6ffe7'
