@@ -29,4 +29,4 @@ steps:
     package: '$(System.DefaultWorkingDirectory)'
     runtimeStack: 'JAVA|11-java11'
     
-- task: PublishBuildArtifacts@1
+#- task: PublishBuildArtifacts@1
