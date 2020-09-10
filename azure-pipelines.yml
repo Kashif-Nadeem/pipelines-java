@@ -2,6 +2,10 @@
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
+variables:
+  # Azure service connection established during pipeline creation
+  azureSubscription: 'c3576c0d-bba5-4c2d-96c4-b79fd4d6ffe7'
+  appName: 'DOSTraining'
 
 trigger:
 - master
