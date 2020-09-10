@@ -26,6 +26,7 @@ steps:
     azureSubscription: 'Azure for Students(c3576c0d-bba5-4c2d-96c4-b79fd4d6ffe7)'
     appType: 'webAppLinux'
     appName: 'DOSTraining'
+    package: '**/surefire-reports/TEST-*.xml'
     runtimeStack: 'JAVA|11-java11'
     
 - task: PublishBuildArtifacts@1
