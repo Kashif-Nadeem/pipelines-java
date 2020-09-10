@@ -5,7 +5,7 @@
 
 trigger:
 - master
-
+# kashif checking
 pool:
   vmImage: 'ubuntu-latest'
 
